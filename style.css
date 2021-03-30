@@ -1,0 +1,116 @@
+
+body {
+     font-family: sans-serif;
+    }
+.header {
+background: black;
+color: white;
+display: flex;
+
+
+}
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+.logo svg {
+    margin: 2%;
+    height: 60px;
+    width: 35px;
+}
+.menu {
+width: 24%;
+justify-content: center;
+align-items: center;
+margin-left: 45%;
+padding: 35px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10%;
+}
+/*partie présentation texte*/
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+
+}
+.main p {
+    width: 35%;
+    text-align: center;
+    min-width: 216px;
+}
+.main button {
+width: 165px;
+padding: 3%;
+color: white;
+border: none;
+border-radius: 5%;
+}
+.bt1 {
+    background-color :cornflowerblue;
+}
+.bt2 {
+    background-color: grey;
+}
+/*..............container.............*/
+
+.container {
+    width: 100%;
+    background:indianred;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 1%;
+}
+.haut {
+    width: 500px;
+    overflow:auto;
+}
+.carte {
+    display: flex;
+    flex-direction: column;
+    background:greenyellow;
+    width: 300px;
+    border-radius: 6px;
+    }
+    .carte img {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .text,.view {
+        padding: 5%;
+    }
+    .view {
+        display: flex;
+        justify-content: space-between;
+        color: rgb(0, 0, 0);
+    }
+    .viewbutton {
+        width: 25%;
+        display: flex;
+        padding: 1px;
+        background: grey;
+        border: 1px solid grey;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: black;
+    
+    }
+    .viewbutton button hover {
+        background: grey;
+        color: white;
+        transition-duration: 0.5;
+    }
+    .time {
+        display: flex;
+        align-items: center;
+    }
